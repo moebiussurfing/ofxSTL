@@ -24,8 +24,9 @@
 #include "ofxSTLFacet.h"
 #include <iostream>
 #include <fstream>
+using namespace std;
 
 class ofxSTLReaderBase{
 public:
-	virtual void readFile(ifstream& myFile, vector<ofxSTLFacet>& facets) = 0;
+	virtual void readFile(std::ifstream& myFile, vector<ofxSTLFacet>& facets) = 0;
 };

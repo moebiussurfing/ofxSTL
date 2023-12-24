@@ -21,6 +21,7 @@
 #pragma once
 
 #include "ofxSTLReaderBase.h"
+using namespace std;
 
 
 class ofxSTLBinaryReader: public ofxSTLReaderBase{
